@@ -1,3 +1,29 @@
+// 1-masalaa
+// let obj = { d: 10 };
+// let mapObj = new Map([
+//   ["a", 1],
+//   ["b", 2],
+//   ["c", 3],
+//   ["d", 4],
+// ]);
+// console.log(mapObj);
+
+// 2-masalaa
+// function mapSum(obj) {
+//   let sum = 0;
+//   for (let value of obj.values()) {
+//     sum += value;
+//   }
+//   return sum;
+// }
+
+// const obj = new Map([
+//   ["a", 2],
+//   ["b", 5],
+//   ["c", 3],
+// ]);
+// console.log(mapSum(obj));
+
 // 5-masalaa
 // function setIntersection(set1, set2) {
 //   let intersection = new Set([...set1, ...set2]);
@@ -65,13 +91,3 @@
 // };
 // let flatArr = concatArrays();
 // console.log(flatArr);
-
-try {
-  let result = add(10, 20);
-  console.log(result);
-} catch (e) {
-  console.log({ name: e.name, message: e.message });
-} finally {
-  console.log("Work");
-}
-console.log("Bye");
